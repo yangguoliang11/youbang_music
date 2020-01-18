@@ -1,3 +1,3 @@
 <?php
-echo shell_exec("git pull");
+echo shell_exec("git pull & git merge origin/master master");
 
